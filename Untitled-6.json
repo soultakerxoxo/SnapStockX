@@ -1,0 +1,9 @@
+
+{
+  "name": "Fluximart - AI-Powered Dropshipping & Faceless Content Studio",
+  "description": "A comprehensive dropshipping platform integrated with a Faceless AI content suite for automated video, script, and image generation. Connect to global suppliers and scale your e-commerce brand anonymously.",
+  "requestFramePermissions": [
+    "camera",
+    "microphone"
+  ]
+}

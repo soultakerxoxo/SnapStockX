@@ -1,0 +1,20 @@
+
+import React from 'react';
+import { Supplier, Product } from './types';
+
+export const SUPPLIERS_LIST: Supplier[] = [
+  { id: 'aliexpress', name: 'AliExpress', category: 'Global', region: 'China', speed: 'Slow–Medium', description: 'General all-purpose supplier, best for beginners.', products: ['Electronics', 'Clothing', 'Home'], logo: 'https://picsum.photos/seed/aliexpress/200' },
+  { id: 'spocket', name: 'Spocket', category: 'USA', region: 'USA/EU', speed: 'Fast', description: 'High-quality US & EU suppliers with branded invoices.', products: ['Fashion', 'Jewelry', 'Pet Supplies'], logo: 'https://picsum.photos/seed/spocket/200' },
+  { id: 'printful', name: 'Printful', category: 'POD', region: 'Global', speed: 'Varies', description: 'Leader in print-on-demand clothing and merchandise.', products: ['Apparel', 'Accessories', 'Home Decor'], logo: 'https://picsum.photos/seed/printful/200' },
+  { id: 'bigbuy', name: 'BigBuy', category: 'EU', region: 'Spain', speed: 'Fast (EU)', description: 'European giant for electronics, home, and fashion.', products: ['Electronics', 'Home', 'Kitchen'], logo: 'https://picsum.photos/seed/bigbuy/200' },
+  { id: 'cjdropshipping', name: 'CJ Dropshipping', category: 'Global', region: 'Global', speed: 'Medium', description: 'Warehouses worldwide, faster than standard AliExpress.', products: ['General', 'Kitchen', 'Beauty'], logo: 'https://picsum.photos/seed/cj/200' },
+  { id: 'sellnow', name: 'SellNow', category: 'Digital', region: 'Cloud', speed: 'Instant', description: 'Digital downloads and AI tools marketplace.', products: ['Software', 'E-books', 'Courses'], logo: 'https://picsum.photos/seed/sellnow/200' },
+];
+
+export const MOCK_PRODUCTS: Product[] = [
+  { id: '1', name: 'Smart AI Desk Lamp', price: 49.99, category: 'Electronics', supplierId: 'aliexpress', image: 'https://picsum.photos/seed/lamp/400/400', description: 'Intelligent lighting controlled by voice.', trending: true },
+  { id: '2', name: 'Eco-Friendly Yoga Mat', price: 34.50, category: 'Fitness', supplierId: 'spocket', image: 'https://picsum.photos/seed/yoga/400/400', description: 'Sustainable grip for your daily flow.', trending: true },
+  { id: '3', name: 'Faceless Content Masterclass', price: 199.00, category: 'Digital', supplierId: 'sellnow', image: 'https://picsum.photos/seed/course/400/400', description: 'Learn to scale YouTube channels with AI.', trending: false },
+  { id: '4', name: 'Wireless Pro Headphones', price: 89.99, category: 'Electronics', supplierId: 'bigbuy', image: 'https://picsum.photos/seed/audio/400/400', description: 'Noise cancelling studio-grade audio.', trending: true },
+  { id: '5', name: 'Custom Embroidered Hoodie', price: 55.00, category: 'Fashion', supplierId: 'printful', image: 'https://picsum.photos/seed/hoodie/400/400', description: 'High quality cotton with custom art.', trending: false },
+];
